@@ -16,11 +16,11 @@ function Button({ label, backgroundColor = "red", size = "md", handleClick }) {
   )
 }
 
-// Button.propTypes = {
-//   label: PropTypes.string,
-//   backgroundColor: PropTypes.string,
-//   size: PropTypes.oneOf(["sm", "md", "lg"]),
-//   handleClick: PropTypes.func,
-// }
+Button.propTypes = {
+  label: PropTypes.string,
+  backgroundColor: PropTypes.string,
+  size: PropTypes.oneOf(["sm", "md", "lg"]),
+  handleClick: PropTypes.func,
+}
 
 export default Button
